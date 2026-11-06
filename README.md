@@ -38,7 +38,7 @@ javac -d out src/application/Program.java src/util/TempConverter.java src/except
 java -cp out application.Program
 ```
 
-Ou abra a pasta no IntelliJ IDAE e execute a classe `Program`.
+Ou abra a pasta no IntelliJ IDEA e execute a classe `Program`.
 
 ## Estrutura
 

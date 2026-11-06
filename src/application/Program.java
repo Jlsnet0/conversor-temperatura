@@ -34,7 +34,7 @@ public class Program {
     }
 
     public static void option1(Scanner sc){
-        System.out.println("Menu de converões Celsius\n1 - Celsius para Fahrenheit\n2 - Celsius para Kelvin");
+        System.out.println("Menu de conversões Celsius\n1 - Celsius para Fahrenheit\n2 - Celsius para Kelvin");
         int response = readResponse(sc);
         System.out.print("Insira a temperatura: ");
         double temp = sc.nextDouble();
@@ -46,7 +46,7 @@ public class Program {
     }
     
     public static void option2(Scanner sc){
-        System.out.println("Menu de converões Fahrenheit\n1 - Fahrenheit para Celsius\n2 - Fahrenheit para Kelvin");
+        System.out.println("Menu de conversões Fahrenheit\n1 - Fahrenheit para Celsius\n2 - Fahrenheit para Kelvin");
         int response = readResponse(sc);
         System.out.print("Insira a temperatura: ");
         double temp = sc.nextDouble();
@@ -58,7 +58,7 @@ public class Program {
     }
     
     public static void option3(Scanner sc){
-        System.out.println("Menu de converões Kelvin\n1 - Kelvin para Fahrenheit\n2 - Kelvin para Celsius");
+        System.out.println("Menu de conversões Kelvin\n1 - Kelvin para Fahrenheit\n2 - Kelvin para Celsius");
         int response = readResponse(sc);
         System.out.print("Insira a temperatura: ");
         double temp = sc.nextDouble();
